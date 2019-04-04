@@ -1,0 +1,261 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+section {
+  padding: 80px 0;
+}
+.navbar {
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+.navbar-header > .navbar-brand {
+  color: #0069ff;
+  font-weight: bolder;
+}
+.nav.navbar-nav li a {
+  color: #031b4e;
+  font-weight: bold;
+}
+.nav.navbar-nav li a:hover {
+  color: #0069ff;
+}
+.navbar-btn {
+  border: 1px solid #0069ff;
+  color: #0069ff;
+}
+.navbar-btn:hover {
+  background-color: #0069ff;
+  color: #ffffff;
+}
+.welcome {
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+.speed-test {
+  background-color: #031b4e;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1024px-World_map_blank_without_borders.svg.png);
+    background-size: cover;
+  color: #ffffff;
+}
+.bg-grey {
+  background-color: #f3f5f9;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.color-blue {
+  color: #0069ff;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+.mb-55 {
+  margin-bottom: 55px;
+}
+.mtb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.w-100 {
+  width: 100%;
+}
+.welcome form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 25px;
+  color: #000000;
+}
+.welcome .green-btn {
+  background-color: #15cd72;
+  color: #ffffff;
+}
+.welcome .form-control {
+  height: 50px;
+}
+.welcome .left h1 {
+  font-size: 65px;
+  font-weight: 900;
+}
+.welcome .left p {
+  font-size: 25px;
+  line-height: 180%;
+  opacity: 0.5;
+}
+.welcome .right h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.customers h4 {
+  font-weight: bolder;
+  opacity: .4;
+}
+.customers ul {
+  display: inline-block;
+}
+.customers ul li {
+  list-style-type: none;
+}
+.deploy-scale h1,
+.for-developers h1,
+.features h1,
+.speed-test h1,
+.team h1 {
+  font-size: 38px;
+  font-weight: bolder;
+  margin-bottom: 35px;
+}
+.deploy-scale p,
+.for-developers p {
+  font-size: 20px;
+  line-height: 180%;
+}
+.deploy-scale .list-border ul li {
+  list-style-type: none;
+  height: 50px;
+  line-height: 50px;
+  border-left: 2px solid #f3f5f9;
+  padding-left: 20px;
+  color: rgba(3,27,78,.5);
+  font-weight: bold;
+}
+.deploy-scale .list-border ul li:first-child {
+  border-left: 2px solid #0069ff;
+  color: #031b4e;
+}
+.deploy-scale .grid {
+  padding: 60px 0;
+}
+.deploy-scale .grid h4,
+.features h4 {
+  color:  #031b4e;
+  font-weight: bold;
+}
+.deploy-scale .grid p,
+.features .grid p  {
+  font-size: 16px;
+  line-height: 180%;
+}
+.for-developers img {
+  border-radius: 10px;
+}
+.for-developers .p-15 {
+  font-size: 15px;
+}
+.features a {
+  font-weight: bold;
+  display: block;
+}
+.table>tbody>tr {
+  height: 45px;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  line-height: 200%;
+  border-top: none;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.table a,
+.team a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #00d7d2;
+}
+.table a:hover,
+.team a:hover {
+  color: #0069ff;
+  text-decoration: none;
+}
+.table a>i {
+  font-size: 10px;
+}
+.team .box-team {
+  border-radius: 5px;
+}
+.team h3,
+.team p,
+.team small {
+  line-height: 180%;
+
+}
+.team a {
+  display: inline-block;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.get-started{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+}
+
+.get-started .col-md-4 {
+  padding: 10px 60px;
+}
+.get-started h1 {
+  font-weight: bold;
+  color: white;
+}
+.get-started .white-btn {
+  color: #0069ff;
+  font-weight: bold;
+}
+.get-started .white-btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #0069ff;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+footer {
+  background-color: #010e28;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-sx > .logo {
+  display: inline-block;
+  padding-bottom: 15px;
+
+  margin-top: 30px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer_social-list {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.footer__social-list li:not(:last-child) {
+  margin-right: 5px;
+}
+
+.footer-list-title {
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.footer-content-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.footer-content-list li:not(:last-child) {
+  margin-bottom: 5px;
+}
