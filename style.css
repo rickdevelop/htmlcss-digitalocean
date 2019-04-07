@@ -2,12 +2,39 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 section {
-  padding: 80px 0;
+  padding: 90px 0;
 }
-.navbar {
-  background-color: #ffffff;
-  margin-bottom: 0;
+header {
+  height: 90px;
 }
+header .navbar-fixed-top > .navbar-before {
+  border-bottom: 1px solid rgba(3,27,78,.2);
+  height: 40px;
+  padding: 10px 15px;
+}
+header .navbar-before a:hover {
+  text-decoration: none;
+  color: #0069ff;
+}
+header .navbar-fixed-top .navbar-before .navbar-right ul {
+  padding-right: 15px;
+  margin: 0;
+}
+header .navbar-fixed-top .navbar-before .navbar-right ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header .navbar-before .navbar-right ul li a {
+  color: rgba(3,27,78,.7);
+}
+header .navbar-before a {
+  color: rgba(3,27,78,.7);
+  font-size: 12px;
+  font-weight: normal;
+}
+
+
+
 .navbar-header > .navbar-brand {
   color: #0069ff;
   font-weight: bolder;
@@ -110,7 +137,7 @@ section {
   font-size: 20px;
   line-height: 180%;
 }
-.deploy-scale .list-border ul li {
+.deploy-scale .list-left ul li {
   list-style-type: none;
   height: 50px;
   line-height: 50px;
@@ -119,20 +146,24 @@ section {
   color: rgba(3,27,78,.5);
   font-weight: bold;
 }
-.deploy-scale .list-border ul li:first-child {
+.deploy-scale .list-left ul li:first-child {
   border-left: 2px solid #0069ff;
   color: #031b4e;
 }
-.deploy-scale .grid {
-  padding: 60px 0;
+.deploy-scale .col-md-4 {
+  margin-left: 0;
 }
-.deploy-scale .grid h4,
+.deploy-scale .list-left,
+.deploy-scale .list {
+  padding-top: 60px;
+}
+.deploy-scale h4,
 .features h4 {
   color:  #031b4e;
   font-weight: bold;
 }
-.deploy-scale .grid p,
-.features .grid p  {
+.deploy-scale .list p,
+.features .list p  {
   font-size: 16px;
   line-height: 180%;
 }
@@ -188,7 +219,7 @@ section {
   margin-bottom: 55px;
 }
 .get-started{
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fwww.digitalocean.com%2Fassets%2Fmedia%2Fhomepage%2Fbg-home-1-d54581d7.jpg);
 }
 
 .get-started .col-md-4 {
@@ -258,4 +289,80 @@ footer {
 
 .footer-content-list li:not(:last-child) {
   margin-bottom: 5px;
+}
+
+
+
+/* XS-DEVICES */
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+* {
+  margin:0;
+  padding; 0;
+}
+section,
+footer {
+  padding: 30px 0;
+}
+header {
+  height: 50px;
+}
+header .navbar-before {
+  display: none;
+}
+.welcome {
+  height: 800px;
+}
+.welcome .left,
+.welcome .right {
+  height: 250px;
+}
+.welcome .left h1 {
+  margin-bo ttom: 15px;
+  font-size: 30px;
+}
+.welcome .left p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.customers ul {
+  padding-left: 0;
+}
+.deploy-scale .list-border {
+  display: none;
+}
+.table {
+  margin-bottom: 0;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  padding: 10px 0;
+}
+}
+
+/* SM-DEVICES */
+/* Small devices (tablets, 768px and up) */
+@media all and (min-width: 768px) and (max-width: 992px) {
+* {
+  margin:0;
+  padding; 0;
+}
+
+
+}
+/* MD-DEVICES */
+/* Medium devices (desktops, 992px and up) */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+}
+/* LG_DEVICES */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1220px) {
+.container {
+  width: 80%;
+}
 }

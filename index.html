@@ -11,9 +11,24 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
+      <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-before container-fluid">
+          <div>
+            <span class="label label-info">Info</span>
+            <a href="#">General Purpose Droplets VMs now supporting a wider range of production workloads.</a>
+            <div class="nav navbar-nav navbar-right">
+              <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Log In</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid">
-
+          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -21,7 +36,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><span><i class="fab fa-digital-ocean"></i> DigitalOcean</span></a>
+            <a class="navbar-brand" href="#"><i class="fab fa-digital-ocean"></i><span> DigitalOcean</span></a>
           </div>
 
 
@@ -34,33 +49,41 @@
               <li><a href="#">Community</a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <button type="button" class="btn btn-default navbar-btn">Sign Up</button>
-            </ul>
+            <div class="nav navbar-nav navbar-right">
+              <a class="btn btn-default navbar-btn" href="#">Sign Up</a>
+            </div>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
     </header>
-    <section class="welcome bg-image">
+
+
+    <section class="welcome">
       <div class="container">
         <div class="row">
-          <div class="left col-md-6">
-              <h1 class="mb-35">Welcome to the developer cloud</h1>
-              <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand.</p>
+          <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
+            <div class="left relative">
+              <div class="welcome-aboslute">
+                <h1>Welcome to the developer cloud</h1>
+                <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand.</p>
+              </div>
             </div>
-          <div class="right text-center col-md-4 col-md-offset-2">
-            <form>
-              <h1 class="mb-35">Deploy in seconds</h1>
-              <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
-              </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <button type="submit" class="green-btn btn btn-default btn-lg btn-block">Create your account</button>
-              <button type="submit" class="google-btn btn btn-default btn-lg btn-block">Sign up with Google</button>
-              <p class="mtb-20">By signing up you agree to the <a class="color-blue"href="#">Terms of Service</a>.</p>
-            </form>
+          </div>
+          <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+            <div class="right relative text-center ">
+              <form class="welcome-absolute">
+                <h1>Deploy in seconds</h1>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="green-btn btn btn-default btn-lg btn-block">Create your account</button>
+                <button type="submit" class="google-btn btn btn-default btn-lg btn-block">Sign up with Google</button>
+                <p class="mtb-20">By signing up you agree to the <a class="color-blue"href="#">Terms of Service</a>.</p>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -69,18 +92,17 @@
     <section class="customers bg-grey">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-12">
+          <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h4 class="mb-35">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
           </div>
-          <div class="col-md-10 col-md-offset-1">
-            <ul>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt=""></li>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt=""></li>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-0c6bb799.png" alt=""></li>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt=""></li>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt=""></li>
-              <li class="col-md-2"><img class="w-100" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt=""></li>
-            </ul>
+          <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-0c6bb799.png" alt="">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="">
+            <img class="col-lg-2 col-md-2 col-sm-4 col-xs-12" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="">
+
           </div>
 
         </div>
@@ -93,54 +115,60 @@
 
     </section>
 
-
     <section class="deploy-scale">
-      <div class="container">
-        <div class="row">
-          <div class="text-center col-md-12">
-            <h1 class="mb-35">Deploy and scale seamlessly</h1>
-            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-          </div>
-          <div class="grid col-md-10 col-md-offset-1">
-            <div class="list-border col-md-4">
-              <ul>
-                <li>Deploy</li>
-                <li>Manage</li>
-                <li>Secure</li>
-                <li>Scale</li>
-                <li>Monito</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <i class="fas fa-tint fa-2x color-blue"></i>
-              <h4 class="mb-35">Cluster deployments</h4>
-              <p class="mb-55">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
-              <i class="fas fa-folder-plus fa-2x color-blue"></i>
-              <h4 class="mb-35">1-Click apps</h4>
-              <p class="mb-55">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
-            </div>
-            <div class="col-md-4">
-              <i class="fas fa-tint fa-2x color-blue"></i>
-              <h4 class="mb-35">Cluster deployments</h4>
-              <p class="mb-55">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
-              <i class="fas fa-folder-plus fa-2x color-blue"></i>
-              <h4 class="mb-35">1-Click apps</h4>
-              <p class="mb-55">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
-            </div>
-          </div>
+         <div class="container">
+           <div class="row">
+             <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <h1>Deploy and scale seamlessly</h1>
+               <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10-col-xs-offset-1">
+                 <div class="list-left">
+                   <ul>
+                     <li>Deploy</li>
+                     <li>Manage</li>
+                     <li>Secure</li>
+                     <li>Scale</li>
+                     <li>Monito</li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1">
+                 <div class="list">
+                   <i class="fas fa-tint fa-2x color-blue"></i>
+                   <h4 class="mb-35">Cluster deployments</h4>
+                   <p class="mb-55">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                   <i class="fas fa-folder-plus fa-2x color-blue"></i>
+                   <h4 class="mb-35">1-Click apps</h4>
+                   <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                 </div>
+               </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1">
+                 <div class="list">
+                   <i class="fas fa-box fa-2x color-blue"></i>
+                   <h4 class="mb-35">Flexible compute types</h4>
+                   <p class="mb-55">With Standard, General Purpose, or CPU-Optimized Droplets, choose the right infrastructure for your workload.</p>
+                   <i class="fas fa-globe fa-2x color-blue"></i>
+                   <h4 class="mb-35">Global availability</h4>
+                   <p>Deploy to any of our data center regions around the world.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
 
-        </div>
-
-      </div>
-    </section>
     <section class="for-developers bg-grey">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-10 col-md-offset-1">
+          <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="mb-35">Designed for developers</h1>
             <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
             <img class="w-100 mtb-20" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-5ad845ca.jpg" alt="">
             <p class="text-center mtb-20 p-15">Create compute servers in 55 seconds or less</p>
           </div>
@@ -152,22 +180,22 @@
     <section class="features">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-12">
+          <div class="text-center col-md-12 col-sm-12 col-xs-12">
             <h1>The features your business needs</h1>
           </div>
-          <div class="grid col-md-4">
+          <div class="text-left grid col-md-4 col-sm-4 col-xs-12">
             <i class="far fa-file fa-3x color-blue mtb-20"></i>
             <h4>Predictable pricing</h4>
             <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
             <a class="mtb-20" href="#">Pricing <i class="fas fa-chevron-right"></i></a>
           </div>
-          <div class="grid col-md-4">
+          <div class="text-left grid col-md-4 col-sm-4 col-xs-12">
             <i class="fas fa-headset fa-3x color-blue mtb-20"></i>
             <h4>World-class service</h4>
             <p>Free round-the-clock technical support for all customers. You’ll feel the love.</p>
             <a class="mtb-20" href="#">Support <i class="fas fa-chevron-right"></i></a>
           </div>
-          <div class="grid col-md-4">
+          <div class="text-left grid col-md-4 col-sm-4 col-xs-12">
             <i class="fas fa-shield-alt fa-3x color-blue mtb-20"></i>
             <h4>Reliable platform</h4>
             <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -180,12 +208,12 @@
     <section class="speed-test">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-8 col-md-offset-2">
+          <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1>Service your customers around the world from 12 regions.</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="bs-example" data-example-id="simple-table">
               <table class="table">
                <tbody>
@@ -223,7 +251,7 @@
              </table>
            </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="bs-example" data-example-id="simple-table">
               <table class="table">
                <tbody>
@@ -268,34 +296,39 @@
     <section class="team bg-grey">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-10 col-md-offset-1">
+          <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1>Development teams love DigitalOcean</h1>
           </div>
-          <div class="bg-white box-team col-md-8 col-md-offset-2">
-            <img class="w-100 mtb-20" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-droplet-5ad845ca.jpg" alt="">
-            <div class="mtb-20 text-center col-md-12">
-              <h3>“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</h3>
-              <p>Rick O’Toole</p>
-              <p>Co-founder and CTO</p>
-              <a href="#">Read story <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="row">
+          <div class="bg-white col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+            <div class="text-center">
+              <img src="https://www.digitalocean.com/assets/media/homepage/teams/rockerbox-logo-51462da2.png" alt="">
+            </div>
+            <div class="row">
+              <div class="mtb-20 text-center col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                <h3>“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</h3>
+                <p>Rick O’Toole</p>
+                <p>Co-founder and CTO</p>
+                <a href="#">Read story <i class="fas fa-chevron-right"></i></a>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
     <section class="get-started">
       <div class="container">
         <div class="row">
-          <div class="text-center col-md-4 col-md-offset-4">
-            <h1 class="mb-35">Get started now.</h1>
+          <div class="text-center col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+            <h1>Get started now.</h1>
             <button type="submit" class="white-btn btn btn-default btn-lg btn-block">Create your account</button>
           </div>
         </div>
       </div>
     </section>
 
-    
+
 
     <footer class="footer">
 
@@ -318,7 +351,7 @@
 
           <div class="col-md-8 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
             <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer-list">
                   <p class="footer-list-title">Company</p>
                   <ul class="footer-content-list">
@@ -334,7 +367,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer-list">
                   <p class="footer-list-title">Products</p>
                   <ul class="footer-content-list">
@@ -355,7 +388,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer-list">
                   <p class="footer-list-title">Community</p>
                   <ul class="footer-content-list">
